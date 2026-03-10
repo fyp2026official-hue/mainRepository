@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "584441890881",
+    "project_id": "sportify-d397a",
+    "storage_bucket": "sportify-d397a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584441890881:android:1d3fdccd7f34618a111ec0",
+        "android_client_info": {
+          "package_name": "com.example.sports_scoring_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584441890881-imef1gmdi5kpaqi1ljet7tojevqej6r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sports_scoring_app",
+            "certificate_hash": "e1db9d181fee928a260cb324895be6831fa4d927"
+          }
+        },
+        {
+          "client_id": "584441890881-b7t5jlf24npl5u8bhh0vpp0eobv3hh00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPAHqFvM3hwlNV2kbzdJX9t7TtSt5lva4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584441890881-b7t5jlf24npl5u8bhh0vpp0eobv3hh00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
