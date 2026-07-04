@@ -19,6 +19,9 @@ const userSchema = new mongoose.Schema(
     },
 
     // Useful metadata
+    role: { type: String, enum: ["user", "admin"], default: "user", index: true },
+    adminPasswordHash: { type: String, default: "", select: false },
+    isActive: { type: Boolean, default: true, index: true },
     lastLoginAt: { type: Date, default: null },
     profileCompleted: { type: Boolean, default: false },
     fcmToken: { type: String, default: "" },

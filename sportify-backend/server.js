@@ -11,6 +11,7 @@ const teamRoutes = require("./routes/team");
 const newsRouter = require("./routes/news");
 const nbaRoutes = require("./routes/nba_match_details");
 const tournaments = require("./routes/tournaments");
+const adminRoutes = require("./routes/adminRoutes");
 const uefaFixturesRouter = require("./routes/uefa_fixtures");
 const uefaTeamRouter = require("./routes/uefa_team");
 const { startMatchStartNotifier } = require("./jobs/matchStartNotifier");
@@ -30,6 +31,7 @@ app.get("/", (req, res) => res.send("Backend running (NBA - SportsDataIO only)")
 // users/auth
 app.use("/api/users", userRoutes);
 app.use("/api/tournaments", tournaments);
+app.use("/api/admin", adminRoutes);
 
 // NBA
 app.use("/standings", standingsRoute);

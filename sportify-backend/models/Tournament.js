@@ -17,7 +17,7 @@ const TournamentSchema = new mongoose.Schema(
     createdByName: { type: String, default: "" },
 
     // Optional metadata
-    status: { type: String, enum: ["active", "closed"], default: "active" },
+    status: { type: String, enum: ["active", "closed", "cancelled"], default: "active" },
   },
   { timestamps: true }
 );
